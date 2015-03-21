@@ -1,6 +1,8 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jonfaulkenberry.com" # the base hostname & protocol for your site
+blog_link: "/blog/"
+blog_link_title: "Blog"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -11,7 +13,7 @@ theme:
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
-  header_text: 
+  header_text:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
