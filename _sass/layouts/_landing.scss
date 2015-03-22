@@ -1,0 +1,36 @@
+.landing {
+  margin-top: 3%;
+  width: 50%;
+  color: #fff;
+  .landing-header {
+    padding-top: 5%;
+    font-size: 180%;
+  }
+  .landing-text {
+    font-size: 100%;
+  }
+  .landing-circular {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(../img/avatar.jpg) no-repeat;
+    background-size: 100px 100px;
+  }
+  .landing-buttons {
+    a.button {
+      color: #fff;
+      margin-right: 2%;
+      width: 12rem;
+      &.view-blog-btn {
+        background-color: #1ABC9C;
+        border-color: #1ABC9C;
+      }
+      &.hire-me-btn {
+        background-color: #6f5499;
+        border-color: #6f5499;
+      }
+    }
+  }
+}

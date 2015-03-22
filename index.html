@@ -4,10 +4,12 @@ layout: landing
 
 <center>
   <div class="landing">
-    <div class="circular"></div>
-    <p class="header">Hi, I'm Jon Faulkenberry</p>
-    <p class="text">I'm a software engineer that's built web and mobile applications for awesome
-      companies like Expedia, Starbucks, and Microsoft</p>
-    <a class="button" href="/blog">Get to Know Me</a>
+    <div class="landing-circular"></div>
+    <p class="landing-header">{{ site.landing_header }}</p>
+    <p class="landing-text">{{ site.landing_text }}</p>
+    <p class="landing-buttons">
+      <a class="view-blog-btn btn-block button" href="{{ site.blog_link }}">Read My Blog</a>
+      <a class="hire-me-btn btn-block button" href="{{ site.hire_me_link }}">Hire Me</a>
+    </p>
   </div>
 </center>

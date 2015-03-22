@@ -1,16 +1,19 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jonfaulkenberry.com" # the base hostname & protocol for your site
+landing_header: "Hi, I'm Jon Faulkenberry"
+landing_text: "I'm a Seattle-based software engineer. I've helped build web and mobile applications for awesome companies like Expedia, Starbucks, and Microsoft"
 blog_link: "/blog/"
 blog_link_title: "Blog"
+hire_me_link: "/hire/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
   title: Jon Faulkenberry
+  description: "I'm a Seattle-based software engineer. I've helped build web and mobile applications for awesome companies like Expedia, Starbucks, and Microsoft"
   avatar: avatar.jpg
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text:
