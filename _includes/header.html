@@ -16,16 +16,28 @@
 	<nav class="site-nav">
 		<ul>
 			<li class="site-nav-link">
-				<a class="page-link" href="{{ site.blog_link }}">
-					{{ site.blog_link_title }}
-				</a>
+				{% if page.url == site.blog_link_page %}
+					<a class="page-link active" href="{{ site.blog_link }}">
+						{{ site.blog_link_title }}
+					</a>
+				{% else %}
+					<a class="page-link" href="{{ site.blog_link }}">
+						{{ site.blog_link_title }}
+					</a>
+				{% endif %}
 			</li>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
+			{% for node in site.pages %}
+			{% if node.title and node.hide != true %}
 			<li class="site-nav-link">
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-					{{ page.title }}
-				</a>
+				{% if node.url == page.url %}
+					<a class="page-link active" href="{{ node.url | prepend: site.baseurl }}">
+						{{ page.title }}
+					</a>
+				{% else %}
+					<a class="page-link" href="{{ node.url | prepend: site.baseurl }}">
+						{{ node.title }}
+					</a>
+				{% endif %}
 			</li>
 			{% endif %}
 			{% endfor %}

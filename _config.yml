@@ -5,6 +5,7 @@ landing_header: "Hi, I'm Jon Faulkenberry"
 landing_text: "I'm a Seattle-based software engineer. I've helped build web and mobile applications for awesome companies like Expedia, Starbucks, and Microsoft"
 blog_link: "/blog/"
 blog_link_title: "Blog"
+blog_link_page: "/blog/index.html"
 hire_me_link: "/hire/"
 
 # THEME-SPECIFIC CONFIGURATION
