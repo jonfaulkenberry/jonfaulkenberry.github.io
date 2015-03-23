@@ -1,5 +1,5 @@
 {% if site.theme.rss %}
-<li>
+<li class="site-nav-link">
 	<a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" title="{{ site.theme.str_rss_follow }}">
 		<i class="fa fa-fw fa-rss"></i>
 	</a>
@@ -7,7 +7,7 @@
 {% endif %}
 
 {% if site.theme.email_address %}
-<li>
+<li class="site-nav-link">
 	<a href="mailto:{{ site.theme.email_address }}" title="{{ site.theme.str_email }}">
 		<i class="fa fa-fw fa-envelope"></i>
 	</a>
@@ -15,7 +15,7 @@
 {% endif %}
 
 {% if site.theme.behance %}
-<li>
+<li class="site-nav-link">
 	<a href="https://www.behance.net/{{ site.theme.behance }}" title="{{ site.theme.str_follow_on }} Behance">
 		<i class="fa fa-fw fa-behance"></i>
 	</a>
@@ -23,7 +23,7 @@
 {% endif %}
 
 {% if site.theme.bitbucket %}
-<li>
+<li class="site-nav-link">
 	<a href="https://bitbucket.org/{{ site.theme.bitbucket }}" title="{{ site.theme.str_follow_on }} Bitbucket">
 		<i class="fa fa-fw fa-bitbucket"></i>
 	</a>
@@ -31,7 +31,7 @@
 {% endif %}
 
 {% if site.theme.dribbble %}
-<li>
+<li class="site-nav-link">
 	<a href="https://dribbble.com/{{ site.theme.dribbble }}" title="{{ site.theme.str_follow_on }} Dribbble">
 		<i class="fa fa-fw fa-dribbble"></i>
 	</a>
@@ -39,7 +39,7 @@
 {% endif %}
 
 {% if site.theme.facebook %}
-<li>
+<li class="site-nav-link">
 	<a href="https://www.facebook.com/{{ site.theme.facebook }}" title="{{ site.theme.str_follow_on }} Facebook">
 		<i class="fa fa-fw fa-facebook"></i>
 	</a>
@@ -47,7 +47,7 @@
 {% endif %}
 
 {% if site.theme.flickr %}
-<li>
+<li class="site-nav-link">
 	<a href="https://www.flickr.com/photos/{{ site.theme.flickr }}" title="{{ site.theme.str_follow_on }} Flickr">
 		<i class="fa fa-fw fa-flickr"></i>
 	</a>
@@ -55,7 +55,7 @@
 {% endif %}
 
 {% if site.theme.github %}
-<li>
+<li class="site-nav-link">
 	<a href="https://github.com/{{ site.theme.github }}" title="{{ site.theme.str_follow_on }} GitHub">
 		<i class="fa fa-fw fa-github"></i>
 	</a>
@@ -63,7 +63,7 @@
 {% endif %}
 
 {% if site.theme.google_plus %}
-<li>
+<li class="site-nav-link">
 	<a href="https://plus.google.com/{{ site.theme.google_plus }}" title="{{ site.theme.str_follow_on }} Google+">
 		<i class="fa fa-fw fa-google-plus"></i>
 	</a>
@@ -71,7 +71,7 @@
 {% endif %}
 
 {% if site.theme.instagram %}
-<li>
+<li class="site-nav-link">
 	<a href="http://instagram.com/{{ site.theme.instagram }}" title="{{ site.theme.str_follow_on }} Instagram">
 		<i class="fa fa-fw fa-instagram"></i>
 	</a>
@@ -79,7 +79,7 @@
 {% endif %}
 
 {% if site.theme.linkedin %}
-<li>
+<li class="site-nav-link">
 	<a href="{{ site.theme.linkedin }}" title="{{ site.theme.str_follow_on }} LinkedIn">
 		<i class="fa fa-fw fa-linkedin"></i>
 	</a>
@@ -87,7 +87,7 @@
 {% endif %}
 
 {% if site.theme.pinterest %}
-<li>
+<li class="site-nav-link">
 	<a href="http://www.pinterest.com/{{ site.theme.pinterest }}" title="{{ site.theme.str_follow_on }} Pinterest">
 		<i class="fa fa-fw fa-pinterest"></i>
 	</a>
@@ -95,7 +95,7 @@
 {% endif %}
 
 {% if site.theme.reddit %}
-<li>
+<li class="site-nav-link">
 	<a href="https://www.reddit.com/user/{{ site.theme.reddit }}" title="{{ site.theme.str_follow_on }} Reddit">
 		<i class="fa fa-fw fa-reddit"></i>
 	</a>
@@ -103,7 +103,7 @@
 {% endif %}
 
 {% if site.theme.soundcloud %}
-<li>
+<li class="site-nav-link">
 	<a href="https://soundcloud.com/{{ site.theme.soundcloud }}" title="{{ site.theme.str_follow_on }} SoundCloud">
 		<i class="fa fa-fw fa-soundcloud"></i>
 	</a>
@@ -111,7 +111,7 @@
 {% endif %}
 
 {% if site.theme.stack_exchange %}
-<li>
+<li class="site-nav-link">
 	<a href="{{ site.theme.stack_exchange }}" title="{{ site.theme.str_follow_on }} Stack Exchange">
 		<i class="fa fa-fw fa-stack-exchange"></i>
 	</a>
@@ -119,7 +119,7 @@
 {% endif %}
 
 {% if site.theme.steam %}
-<li>
+<li class="site-nav-link">
 	<a href="http://steamcommunity.com/id/{{ site.theme.steam }}" title="{{ site.theme.str_follow_on }} Steam">
 		<i class="fa fa-fw fa-steam"></i>
 	</a>
@@ -127,7 +127,7 @@
 {% endif %}
 
 {% if site.theme.tumblr %}
-<li>
+<li class="site-nav-link">
 	<a href="http://{{ site.theme.tumblr }}.tumblr.com/" title="{{ site.theme.str_follow_on }} Tumblr">
 		<i class="fa fa-fw fa-tumblr"></i>
 	</a>
@@ -135,7 +135,7 @@
 {% endif %}
 
 {% if site.theme.twitter %}
-<li>
+<li class="site-nav-link">
 	<a href="https://twitter.com/{{ site.theme.twitter }}" title="{{ site.theme.str_follow_on }} Twitter">
 		<i class="fa fa-fw fa-twitter"></i>
 	</a>
@@ -143,7 +143,7 @@
 {% endif %}
 
 {% if site.theme.wordpress %}
-<li>
+<li class="site-nav-link">
 	<a href="https://{{ site.theme.wordpress }}.wordpress.com/" title="{{ site.theme.str_follow_on }} WordPress">
 		<i class="fa fa-fw fa-wordpress"></i>
 	</a>
@@ -151,7 +151,7 @@
 {% endif %}
 
 {% if site.theme.youtube %}
-<li>
+<li class="site-nav-link">
 	<a href="https://www.youtube.com/user/{{ site.theme.youtube }}" title="{{ site.theme.str_follow_on }} YouTube">
 		<i class="fa fa-fw fa-youtube"></i>
 	</a>
